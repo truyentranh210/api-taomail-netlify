@@ -4,8 +4,9 @@
   "type": "module",
   "scripts": {
     "start": "node functions/api.js"
-  },
+{
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0"
   }
 }
