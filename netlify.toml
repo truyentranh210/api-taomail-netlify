@@ -2,7 +2,33 @@
   functions = "functions"
   command = "npm install"
 
+# 🔹 Tự động redirect mọi request đến function /api.js
 [[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/tempemail"
+  from = "/home"
+  to = "/.netlify/functions/api"
+  status = 200
+
+[[redirects]]
+  from = "/1"
+  to = "/.netlify/functions/api/1"
+  status = 200
+
+[[redirects]]
+  from = "/2"
+  to = "/.netlify/functions/api/2"
+  status = 200
+
+[[redirects]]
+  from = "/3"
+  to = "/.netlify/functions/api/3"
+  status = 200
+
+[[redirects]]
+  from = "/4"
+  to = "/.netlify/functions/api/4"
+  status = 200
+
+[[redirects]]
+  from = "/5"
+  to = "/.netlify/functions/api/5"
   status = 200
