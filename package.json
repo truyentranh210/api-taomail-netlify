@@ -1,0 +1,12 @@
+{
+  "name": "temp-email-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node functions/tempemail.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "colorama": "^0.1.0"
+  }
+}
