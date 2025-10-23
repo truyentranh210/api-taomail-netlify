@@ -1,0 +1,8 @@
+[build]
+  functions = "functions"
+  command = "npm install"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/tempemail"
+  status = 200
